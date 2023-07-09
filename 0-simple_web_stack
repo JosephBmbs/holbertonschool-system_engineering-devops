@@ -1,0 +1,23 @@
+         User
+          ||
+		  vv
+       Internet
+          ||
+		  vv
+      DNS Server
+          ||
+          Vv
+Domain Name: foobar.com
+          ||
+          Vv
+    Nginx Web Server
+          ||
+          Vv
+   Application Server
+          ||
+          Vv
+     MySQL Database
+          ||
+          Vv
+    Application Files
+	
