@@ -1,9 +1,9 @@
                                User
                                 ||
-								vv
+				vv
                              Internet
                                 ||
-								vv
+				vv
                             DNS Server
                                 ||
                                 vv
@@ -13,26 +13,26 @@
                      Load Balancer (HAproxy)
               (Clustered with another Load Balancer)
                                 ||
-								vv
+				vv
                   -----------------------------
                   |                           |
-				  v                           v
+		  v                           v
               Web Server 1               Web Server 2
                   |                           |
-				  v                           v
+		  v                           v
                (Nginx)                      (Nginx)
                  ||                           ||
                  ||                           ||
-			     vv                           vv
+		 vv                           vv
         Application Server 1          Application Server 2
                  |                            |
-				 v                            v
+		 v                            v
             (Code Base)                  (Code Base)
                 |                             |
-				v                             v
+	        v                             v
              ---------                    ---------
              |       |                    |       |
             Data    Data                 Data    Data
             base    base                 base    base
-			  1       2                    3       4
+	     1       2                    3       4
 			  
